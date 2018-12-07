@@ -14,7 +14,6 @@ public class MainApp extends Application {
          conn.getClass();
          super.init();
     }*/
-    
 	
 	public void start(Stage primaryStage) {
 		try {
