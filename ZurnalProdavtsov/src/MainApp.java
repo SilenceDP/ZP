@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 
 
 public class MainApp extends Application {
-    
+    //связь с базой
    /* @Override
     public void init() throws Exception {         
          ConnectionDB_H2 conn= new ConnectionDB_H2();
