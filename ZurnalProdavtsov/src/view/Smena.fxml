@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="370.0" prefWidth="520.0" style="-fx-background-color: #CCFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="3.0" prefHeight="20.0" prefWidth="69.0" text="Смена">
+         <font>
+            <Font name="Courier New Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="3.0" layoutY="31.0" prefHeight="346.0" prefWidth="393.0" style="-fx-background-color: #ffffff; -fx-background-radius: 20;" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="4.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <HBox prefHeight="37.0" prefWidth="592.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="90.0" text="Дата">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="20.0" top="10.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="90.0" text="Смена №:" textAlignment="JUSTIFY">
+                     <HBox.margin>
+                        <Insets left="20.0" top="10.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow level="0.07" />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="90.0" text="Касса №:">
+                     <HBox.margin>
+                        <Insets left="20.0" top="10.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="32.0" prefWidth="140.0" text="Продавец">
+                     <HBox.margin>
+                        <Insets left="20.0" top="10.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+               </children>
+               <effect>
+                  <Glow />
+               </effect>
+               <opaqueInsets>
+                  <Insets left="15.0" />
+               </opaqueInsets>
+            </HBox>
+            <HBox layoutY="37.0" prefHeight="27.0" prefWidth="592.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="37.0">
+               <children>
+                  <TextField alignment="CENTER" prefHeight="27.0" prefWidth="90.0" promptText="01.01.1970">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="90.0">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="90.0">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <ComboBox editable="true" prefHeight="27.0" prefWidth="140.0" promptText="Пугачева ">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </ComboBox>
+               </children>
+            </HBox>
+            <HBox layoutY="64.0" prefHeight="37.0" prefWidth="592.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="64.0">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="95.0" text="Выручка">
+                     <HBox.margin>
+                        <Insets left="20.0" top="10.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="95.0" text="Наличные">
+                     <HBox.margin>
+                        <Insets left="20.0" top="10.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="27.0" prefWidth="95.0" text="Безналичные">
+                     <HBox.margin>
+                        <Insets left="20.0" top="10.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutY="101.0" prefHeight="27.0" prefWidth="592.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="101.0">
+               <children>
+                  <TextField alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="95.0" promptText="124456.00">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="27.0" prefWidth="20.0" text="₽">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="95.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="27.0" prefWidth="20.0" text="₽">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="95.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="27.0" prefWidth="20.0" text="₽">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutY="128.0" prefHeight="37.0" prefWidth="592.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="95.0" text="Расход">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="95.0" text="Отклонение">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutY="165.0" prefHeight="27.0" prefWidth="505.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="165.0">
+               <children>
+                  <TextField alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="95.0">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="27.0" prefWidth="20.0" text="₽">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="95.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </TextField>
+                  <Label alignment="BOTTOM_LEFT" prefHeight="27.0" prefWidth="20.0" text="₽">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutY="192.0" prefHeight="37.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="192.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="140.0" text="Продавец (сменщик)">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="155.0" text="Время наначала смены">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Label text="Товаовед">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </HBox>
+            <HBox layoutY="229.0" prefHeight="27.0" prefWidth="592.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <ComboBox editable="true" prefHeight="27.0" prefWidth="140.0" promptText="Пугачева ">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </ComboBox>
+                  <TextField alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="95.0" promptText="07:30">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <ComboBox editable="true" prefHeight="27.0" prefWidth="140.0" promptText="Пугачева ">
+                     <HBox.margin>
+                        <Insets left="80.0" />
+                     </HBox.margin>
+                  </ComboBox>
+               </children>
+            </HBox>
+            <Button layoutX="437.0" layoutY="295.0" mnemonicParsing="false" text="Записать" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
