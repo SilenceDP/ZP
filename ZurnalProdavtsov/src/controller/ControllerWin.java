@@ -35,7 +35,7 @@ public class ControllerWin {
     	addSotrudnik.setOnAction(event->{
     		System.out.println("нажата кнопка Добавить сотрудника");
     		
-    		FXMLLoader loader=new FXMLLoader();
+    		FXMLLoader loader = new FXMLLoader();
     		loader.setLocation(getClass().getResource("/view/Sotrudnik.fxml"));
     		try {
 				loader.load();
@@ -49,7 +49,8 @@ public class ControllerWin {
     		stage.setMinHeight(380);
     		stage.setMinWidth(300);
     		stage.setScene(new Scene(root));
-    		stage.showAndWait();	
+    		stage.showAndWait();
+    		
     	});
         
     	editSotrudnik.setOnAction(event->{

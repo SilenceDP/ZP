@@ -1,11 +1,12 @@
+package controller;
 
 public class Sotrudnik {
 	private String name;		//Имя
 	private String middleName;  //Отчество
 	private String surname;		//Фамилия
 	private String dolgnost;	//Должность
-	private String dataOn;		//Дата устройства на работу
-	private String dataOff;		//Дата увольнения
+	private String dateOn;		//Дата устройства на работу
+	private String dateOff;		//Дата увольнения
 
 	//get-получаем результат из поля
 	public String getName() {
@@ -53,20 +54,21 @@ public class Sotrudnik {
 	
 	
 	public String getDataOn() {
-		return dataOn;
+		return dateOn;
 	}
 	public void setDataOn(String dataOn) {
 		//объязательное поле (тип дата)
-		this.dataOn = dataOn;
+		this.dateOn = dataOn;
 	}
 	
 	
 	public String getDataOff() {
-		return dataOff;
+		return dateOff;
 	}
 	public void setDataOff(String dataOff) {
 		//- может быть пустым (тип дата)
-		this.dataOff = dataOff;
+		this.dateOff = dataOff;
 	}
 	
 }
+
