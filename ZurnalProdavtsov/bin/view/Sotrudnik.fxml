@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="380.0" minWidth="300.0" style="-fx-background-color: #00FFCC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerSotrudnik">
+   <children>
+      <Label alignment="CENTER" prefHeight="50.0" prefWidth="300.0" text="Сотрудник" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Arial Bold Italic" size="20.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets right="160.0" />
+         </padding>
+      </Label>
+      <AnchorPane layoutX="-1.0" layoutY="50.0" prefHeight="331.0" prefWidth="303.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Label layoutX="15.0" layoutY="60.0" prefHeight="30.0" prefWidth="35.0" text="Имя" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="60.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="105.0" prefHeight="30.0" prefWidth="77.0" text="Отчество" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="105.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="12.0" prefHeight="30.0" prefWidth="99.0" text="Фамилия" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="168.0" prefHeight="30.0" prefWidth="85.0" text="Должность" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="150.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="42.0" layoutY="193.0" prefHeight="30.0" prefWidth="77.0" text="Принят(а)" AnchorPane.leftAnchor="42.0" AnchorPane.topAnchor="193.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="148.0" layoutY="199.0" maxWidth="130.0" prefHeight="18.0" prefWidth="130.0" text="Уволен(а)" AnchorPane.leftAnchor="148.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfName" layoutX="110.0" layoutY="20.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0" />
+            <TextField fx:id="tfMiddleName" layoutX="123.0" layoutY="60.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="60.0" />
+            <TextField fx:id="tfSurname" layoutX="116.0" layoutY="106.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="105.0" />
+            <TextField fx:id="tfDolgnost" layoutX="123.0" layoutY="147.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="150.0" />
+            <TextField fx:id="tfDateOn" alignment="CENTER" layoutX="13.0" layoutY="223.0" prefHeight="30.0" prefWidth="130.0" promptText="01.01.1970" AnchorPane.leftAnchor="15.0" />
+            <TextField fx:id="tfDateOff" alignment="CENTER" layoutX="160.0" layoutY="223.0" prefHeight="30.0" prefWidth="130.0" promptText="01.01.1970" AnchorPane.leftAnchor="151.0" />
+            <Button fx:id="recSotrudnik" layoutX="205.0" layoutY="284.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="85.0" text="Записать" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
