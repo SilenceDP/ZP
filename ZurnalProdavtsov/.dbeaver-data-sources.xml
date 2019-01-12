@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="h2_embedded-168291c5c8e-635bf9e177e3ffc0" provider="generic" driver="h2_embedded" name="H2 - Новое соединение" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="" url="jdbc:h2:/Users/dmitrij/git/ZP/ZurnalProdavtsov/lib/db" user="sa" type="dev"/>
+	</data-source>
+	<filters/>
+</data-sources>

@@ -1,4 +1,5 @@
 
+import java.sql.SQLException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -7,13 +8,6 @@ import javafx.stage.Stage;
 
 
 public class MainApp extends Application {
-    //связь с базой
-   /* @Override
-    public void init() throws Exception {         
-         ConnectionDB_H2 conn= new ConnectionDB_H2();
-         conn.getClass();
-         super.init();
-    }*/
 	
 	public void start(Stage primaryStage) {
 		try {
@@ -26,14 +20,17 @@ public class MainApp extends Application {
 			primaryStage.setMinWidth(800); //ограничим размер окна по ширине
 			primaryStage.setScene(scene);
 			primaryStage.show();
-			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
 	
-
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		
+		//для теста
+		//ConnectionDB_H2 conne= new ConnectionDB_H2();
+        //conne.seeAllTabSotrudnik();
+		
 		launch(args);	
 	}
 }

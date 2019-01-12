@@ -52,9 +52,9 @@
                   <Font size="14.0" />
                </font>
             </Label>
-            <TextField fx:id="tfName" layoutX="110.0" layoutY="20.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0" />
-            <TextField fx:id="tfMiddleName" layoutX="123.0" layoutY="60.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="60.0" />
-            <TextField fx:id="tfSurname" layoutX="116.0" layoutY="106.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="105.0" />
+            <TextField fx:id="tfSurname" layoutX="110.0" layoutY="20.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="15.0" />
+            <TextField fx:id="tfName" layoutX="123.0" layoutY="60.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="60.0" />
+            <TextField fx:id="tfMiddleName" layoutX="116.0" layoutY="106.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="105.0" />
             <TextField fx:id="tfDolgnost" layoutX="123.0" layoutY="147.0" prefHeight="30.0" prefWidth="170.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="150.0" />
             <TextField fx:id="tfDateOn" alignment="CENTER" layoutX="13.0" layoutY="223.0" prefHeight="30.0" prefWidth="130.0" promptText="01.01.1970" AnchorPane.leftAnchor="15.0" />
             <TextField fx:id="tfDateOff" alignment="CENTER" layoutX="160.0" layoutY="223.0" prefHeight="30.0" prefWidth="130.0" promptText="01.01.1970" AnchorPane.leftAnchor="151.0" />

@@ -228,19 +228,20 @@
                         <Insets left="20.0" />
                      </HBox.margin>
                   </ComboBox>
-                  <TextField fx:id="tfTimeSmena" alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="95.0" promptText="0:00">
+                  <TextField fx:id="tfTimeSmena" alignment="CENTER_RIGHT" prefHeight="27.0" prefWidth="114.0" promptText="0:00">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin>
                   </TextField>
                   <ComboBox fx:id="cbTovaroved" prefHeight="27.0" prefWidth="140.0" promptText="Пугачева ">
                      <HBox.margin>
-                        <Insets left="80.0" />
+                        <Insets left="60.0" />
                      </HBox.margin>
                   </ComboBox>
                </children>
             </HBox>
             <Button fx:id="btZapisat" layoutX="437.0" layoutY="295.0" mnemonicParsing="false" text="Записать" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+            <CheckBox layoutX="182.0" layoutY="268.0" mnemonicParsing="false" text="Согласовано" />
          </children>
       </AnchorPane>
    </children>

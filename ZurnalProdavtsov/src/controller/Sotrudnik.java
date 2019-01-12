@@ -1,13 +1,26 @@
 package controller;
 
+import java.time.LocalDate;
+
 public class Sotrudnik {
 	private String name; // Имя
 	private String middleName; // Отчество
 	private String surname; // Фамилия
 	private String dolgnost; // Должность
-	private String dateOn; // Дата устройства на работу
-	private String dateOff; // Дата увольнения
+	private LocalDate  dateOn; // Дата устройства на работу
+	private LocalDate dateOff; // Дата увольнения
 
+	
+	public Sotrudnik(String surname,String name,String middleName,String dolgnost,LocalDate dateOn )
+	{
+		this.surname=surname;
+		this.name=name;
+		this.middleName=middleName;
+		this.dolgnost=dolgnost;
+		this.dateOn=dateOn;
+	}
+	
+	
 	// get-получаем результат из поля
 	public String getName() {
 		return name;
@@ -53,20 +66,20 @@ public class Sotrudnik {
 		this.dolgnost = dolgnost;
 	}
 
-	public String getDataOn() {
+	public LocalDate getDataOn() {
 		return dateOn;
 	}
 
-	public void setDataOn(String dataOn) {
+	public void setDataOn(LocalDate dataOn) {
 		// объязательное поле (тип дата)
 		this.dateOn = dataOn;
 	}
 
-	public String getDataOff() {
+	public LocalDate getDataOff() {
 		return dateOff;
 	}
 
-	public void setDataOff(String dataOff) {
+	public void setDataOff(LocalDate dataOff) {
 		// - может быть пустым (тип дата)
 		this.dateOff = dataOff;
 	}
